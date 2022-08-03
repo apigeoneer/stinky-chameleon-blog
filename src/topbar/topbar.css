@@ -1,0 +1,29 @@
+.topbar {
+    width: 100%;
+    padding: 0 20% 0 20%;
+    height: 150px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.l img {
+    width: 100px;
+    object-fit: cover;
+}
+
+.r ul li {
+    display: inline;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 6px;
+}
+
+.r ul li a {
+    padding: 4px 8px;
+}
+
+.r ul li a:link, a:visited, a:active {
+    color: #434343;
+}
