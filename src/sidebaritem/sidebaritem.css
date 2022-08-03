@@ -1,0 +1,16 @@
+.sidebaritem {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 5px 0 5px 0;
+}
+
+.sidebaritem img {
+    width: 60px;
+    padding-right: 5px;
+}
+
+.sidebaritem .title a {
+    color: #434343;
+}
+

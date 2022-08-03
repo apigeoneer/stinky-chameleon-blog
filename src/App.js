@@ -1,9 +1,11 @@
+import Home from "./home/Home";
 import TopBar from "./topbar/TopBar";
 
 function App() {
   return (
     <>
     <TopBar/>
+    <Home/>
     </>
   );
 }

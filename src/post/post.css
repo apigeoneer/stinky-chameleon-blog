@@ -1,0 +1,23 @@
+.post {
+    display: flex;
+    padding: 20px 20px 20px 0;
+    color: #37352f;
+    font-size: 1rem;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.post .date {
+    padding-right: 20px;
+    color: #767676;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.post .title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.post .title a {
+    color: #1a0dab;
+}
