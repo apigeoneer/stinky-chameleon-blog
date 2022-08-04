@@ -1,0 +1,17 @@
+.about {
+    margin-top: 50px;
+    padding-left: 20%;
+    padding-right: 30%;
+    color: #333;
+}
+
+.about > img {
+    width: 35%;
+    height: 370px;
+}
+
+.about .hey {
+    margin-top: 35px;
+    font-size: 3rem;
+    font-weight: bold; 
+}

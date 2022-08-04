@@ -26,14 +26,14 @@
 }
 
 .r ul li a:link, a:visited, a:active {
-    color: #434343;
+    color: #333;
     /* color: white; */
     font-weight: bold;
 }
 
 .r ul li a:hover {
     background-color: #e2e2e2;
-    color: #434343;
+    color: #333;
     border-radius: 4px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
