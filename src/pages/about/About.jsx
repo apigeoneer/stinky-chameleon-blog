@@ -19,6 +19,14 @@ export default function About() {
             (25:5) autoprefixer: end value has mixed support, consider using flex-end instead. (25:5) autoprefixer: end value has mixed support, consider using flex-end instead. (25:5) autoprefixer: end value has mixed support, consider using flex-end instead, (25:5) autoprefixer: end value has mixed support, consider using flex-end instead
             (25:5) autoprefixer: end value has mixed support, consider using flex-end instead. (25:5) autoprefixer: end value has mixed support, consider using flex-end instead. (25:5) autoprefixer: end value has mixed support, consider using flex-end instead, (25:5) autoprefixer: end value has mixed support, consider using flex-end instead</p>        
         </div>
+        <div className="socials">
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-hashnode"></i></a>
+            <a href="#"></a>
+            <i class="fa-brands fa-hashnode"></i>
+            
+        </div>
     
     </div>
   )

@@ -8,6 +8,7 @@
 .about > img {
     width: 35%;
     height: 370px;
+    object-fit: cover;
 }
 
 .about .hey {
@@ -15,3 +16,18 @@
     font-size: 3rem;
     font-weight: bold; 
 }
+
+.about .socials a {
+    display: inline;
+    padding-right: 10px;
+}
+
+.about .socials a i {
+    font-size: 1.7rem;
+    color: #c2c2c2;
+}
+
+.about .socials a i:hover {
+    color: #76dbc9;
+}
+

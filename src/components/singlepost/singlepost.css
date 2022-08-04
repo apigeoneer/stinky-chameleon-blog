@@ -8,6 +8,7 @@
 .singlepost > img {
     width: 75%;
     height: 380px;
+    object-fit: cover;
 }
 
 .singlepost > h1 {

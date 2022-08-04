@@ -1,0 +1,18 @@
+.resourceitems {
+    flex: 7;
+    margin-top: 50px;
+    padding-left: 20%;
+    padding-right: 10%;
+}
+
+.resourceitems > img {
+    width: 75%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.resourceitems .heading {
+    margin-top: 35px;
+    font-size: 3rem;
+    font-weight: bold; 
+}
