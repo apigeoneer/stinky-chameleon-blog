@@ -1,3 +1,5 @@
 .posts {
-    padding: 50px 0 50px 20%;
+    flex: 8;
+    padding: 50px 5% 50px 20%;
+    /* background-color: yellow; */
 }

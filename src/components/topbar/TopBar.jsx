@@ -1,16 +1,20 @@
+import { Link } from "react-router-dom"
 import "./topbar.css"
 
 export default function TopBar() {
   return (
     <div className="topbar">
         <div className="l">
-            <img src="https://assets.nextleap.app/images/cars24_light-f547932c-d57a-4c72-87a9-56e492c8c2d6.svg" alt="" />
+            <Link to="/">
+              <img src="https://freepngimg.com/thumb/chameleon/27166-7-chameleon.png" alt="" />
+            </Link>
+            <Link to="/"><div className="logotitle">Stinky Chameleon</div></Link>
         </div>
         <div className="r">
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Artices</a></li>
+                <li><Link to="about">About</Link></li>
+                <li><Link to="resources">Resources</Link></li>
+                <li><Link to="articles">Articles</Link></li>
             </ul>
             
         </div>
