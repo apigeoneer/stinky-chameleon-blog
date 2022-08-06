@@ -5,10 +5,10 @@ export default function TopBar() {
   return (
     <div className="topbar">
         <div className="l">
-            <Link to="/">
+            <Link to="articles">
               <img src="https://freepngimg.com/thumb/chameleon/27166-7-chameleon.png" alt="" />
             </Link>
-            <Link to="/"><div className="logotitle">Stinky Chameleon</div></Link>
+            <Link to="articles"><div className="logotitle">Stinky Chameleon</div></Link>
         </div>
         <div className="r">
             <ul>
