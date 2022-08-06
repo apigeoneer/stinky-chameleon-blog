@@ -1,6 +1,6 @@
-import Sidebar from "../../components/sidebar/Sidebar"
-import SinglePost from "../../components/singlepost/SinglePost"
 import "./single.css"
+import SinglePost from "../../components/singlepost/SinglePost"
+import Sidebar from '../../components/sidebar/Sidebar'
 
 export default function Single() {
   return (
@@ -10,3 +10,4 @@ export default function Single() {
     </div>
   )
 }
+

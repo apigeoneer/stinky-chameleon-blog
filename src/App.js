@@ -3,7 +3,7 @@ import TopBar from "./components/topbar/TopBar";
 import Single from "./pages/single/Single";
 import About from "./pages/about/About";
 import Resources from "./pages/resources/Resources";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         <Route path="/articles" element={ <Home/> }></Route>
         <Route path="/resources" element={ <Resources/> }></Route>
         <Route path="/about" element={ <About/> }></Route>
+        <Route path="/singlepost" element={ <Single/> }></Route>
       </Routes>
     </>
   );
