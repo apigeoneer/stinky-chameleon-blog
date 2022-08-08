@@ -1,0 +1,33 @@
+.sidebar {
+    flex: 2;
+    padding: 10% 20% 50px 0;
+    /* background-color: orange; */
+}
+
+/* .sidebar h4 {
+    font-weight: 500;
+    color: #434343;
+    font-size: 1rem;
+    padding-bottom: 10px;
+} */
+
+.sidebaritem {
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.sidebaritem img {
+    width: 60px;
+    padding-right: 5px;
+}
+
+.sidebaritem a {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.sidebaritem a:link, a:visited, a:active, a:hover {
+    color: #434343;
+    font-weight: normal;
+}

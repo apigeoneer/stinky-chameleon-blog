@@ -1,0 +1,30 @@
+.post {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    /* color: #37352f; */
+    font-size: 1rem;
+    border: 2px solid #222;
+    margin-bottom: 10px;
+}
+
+.post:hover {
+    background-color: #dcd8d8;
+}
+
+.post .date {
+    padding: 6px;
+    color: #37352f;
+    font-size: 0.85rem;
+    background-color: #76dbc9;
+    border-radius: 4px;
+}
+
+.post .title {
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+/* .post .title a:link, a:visited, a:active {
+    color: #333;
+} */
