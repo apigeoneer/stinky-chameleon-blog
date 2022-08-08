@@ -15,6 +15,7 @@ export default function TopBar() {
                 <li><Link to="about">About</Link></li>
                 <li><Link to="resources">Resources</Link></li>
                 <li><Link to="articles">Articles</Link></li>
+                <li className="write"><Link to="write"><i class="fa fa-pen"></i>Write</Link></li>
             </ul>
             
         </div>

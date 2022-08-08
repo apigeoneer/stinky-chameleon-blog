@@ -35,7 +35,7 @@
     display: inline;
     font-size: 1.1em;
     font-weight: 500;
-    padding-left: 20px;
+    margin-left: 20px;
 }
 
 .r ul li a:link, a:visited, a:active {
@@ -53,3 +53,8 @@
 .r ul li a:hover {
     color: #000;
 }
+
+.write {
+    padding: 4px;
+}
+
